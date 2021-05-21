@@ -148,7 +148,7 @@ exports.updateMany = (req, res) => {                                            
 				});
 			}
 			return res.status(200).json({
-				message: "Document updated successfully",
+				message: "Documents updated successfully",
 				data: { updateCount: result.result.nModified },
 			});
 		},                                                                                                                                   );                                                                                                                                   });
