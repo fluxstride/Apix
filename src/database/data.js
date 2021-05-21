@@ -1,7 +1,7 @@
 let {MongoClient} = require("mongodb");
-let dotenv = require("dotenv");
+//let dotenv = require("dotenv");
 let path = require("path")
-dotenv.config({path: path.join(__dirname,".env")})
+//dotenv.config({path: path.join(__dirname,".env")})
 let connectionString
 if(process.env.PORT){
 	    connectionString=process.env.MONGODB_URI;
